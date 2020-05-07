@@ -1,0 +1,30 @@
+html {
+    font-size: 25px;
+    font-family: 'Quicksand',sans-serif;
+    background-image: url(tlo.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  li {
+    line-height: 160%;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  
+  li:nth-child(even) {
+    background-color: rgba(230,174,188,.3);
+  }
+  li:nth-child(odd) {
+    background-color: rgba(230,174,188,.5)
+  }
+  
+  .enabled {
+    font-weight: bold;
+  } 
+  .disabled {
+  color: gray;
+  }
